@@ -27,7 +27,9 @@
   cursor: pointer;
   border-radius: 8px;
   transition: .7s;
-
+}
+.white{
+  color: white;
 }
 .nav-menu li:hover{
   background-color: #0000002b;
@@ -37,4 +39,10 @@
   display: flex;
   justify-content: space-between;
   padding: 40px 90px;  
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 90px;
 }

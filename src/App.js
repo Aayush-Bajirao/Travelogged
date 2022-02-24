@@ -6,6 +6,15 @@ function App() {
     <div className="App">
       <div class="bg">
         <Navbar />
+
+        <div className="content white">
+          <center>
+          <h1>Travelogged Shimla </h1>        
+          <h1>2022</h1>
+          <p>Discover yourself Discover Shimla, The White Heaven</p>
+          </center>
+        </div>
+
       </div>
 
       <ul role="list">
