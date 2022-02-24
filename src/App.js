@@ -1,20 +1,13 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
 
 function App() {
   return (
     <div className="App">
       <div class="bg">
         <Navbar />
-
-        <div className="content white">
-          <center>
-          <h1>Travelogged Shimla </h1>        
-          <h1>2022</h1>
-          <p>Discover yourself Discover Shimla, The White Heaven</p>
-          </center>
-        </div>
-
+        <Banner />        
       </div>
 
       <ul role="list">
