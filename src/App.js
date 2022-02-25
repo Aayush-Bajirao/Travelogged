@@ -1,6 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
+import Itinerary from "./components/Itinerary";
 
 function App() {
   return (
@@ -10,11 +11,10 @@ function App() {
         <Banner />        
       </div>
 
-      <ul role="list">
-        <li>Unordered list item</li>
-        <li>Cake ice cream sweet sesame snaps dragée cupcake wafer cookie</li>
-        <li>Unordered list item</li>
-      </ul>
+      <div className="itinerary">
+        <Itinerary />
+      </div>  
+      
     </div>
   );
 }
