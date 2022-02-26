@@ -371,9 +371,9 @@ margin-bottom: 0;
   font-size: medium;  
 }
 .inc-img div{
-  height: 20vh;
+  height: 16vh;
     background-size: cover;
-    width: 20vh;
+    width: 16vh;
   
 }
 .inc-img{
@@ -421,4 +421,24 @@ margin-bottom: 0;
 }
 .happy{
   background-image: url('happy-travellers.jpg');
+}
+.d{
+  border-radius: 11px;
+  padding: 20px;
+  margin: 17px 30px;
+
+
+}
+.back{
+  background-color: #ffffffd8;
+}
+.rev-color{
+  background-color: #3d3d3d;
+  padding-bottom: 40px;
+}
+.padding{
+  padding:35px 0 30px 0;
+}
+.margind{
+  margin: 10px 0;
 }
