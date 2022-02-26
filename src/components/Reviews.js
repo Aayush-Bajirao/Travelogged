@@ -4,7 +4,7 @@ const reviews = () => {
   return (
     <div>
       <div className="title white back1 padding">
-            <h2>What Others have to say About Us?</h2>
+            <h2  id='about'>What Others have to say About Us?</h2>
         </div>
         <div className="ree">
     <div className="dflex margind">

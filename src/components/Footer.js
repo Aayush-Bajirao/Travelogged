@@ -15,13 +15,13 @@ function Footer() {
             <h5>Company</h5>
             <ul>
               <li>
-                <a href>About us</a>
+                <a className="black" href="#about">About us</a>
               </li>
               <li>
-                <a>Blog</a>
+                <a className="black" href="#about">Blog</a>
               </li>
               <li>
-                <a>Testimonals</a>
+                <a className="black" href="#about">Testimonals</a>
               </li>
             </ul>
           </div>
@@ -29,10 +29,10 @@ function Footer() {
             <h5>Support</h5>
             <ul>
               <li>
-                <a href>Contact us</a>
+                <a className="black" href="#about">Contact us</a>
               </li>
               <li>
-                <a>Help center</a>
+                <a className="black" href="#about">Help center</a>
               </li>
             </ul>
           </div>
@@ -40,18 +40,18 @@ function Footer() {
             <h5>Follow Us</h5>
             <ul className="dflex">
               <li>
-                <a href>
-                  <FaTwitter />
+                <a href="https://twitter.com/">
+                  <FaTwitter color="black"/>
                 </a>
               </li>
               <li>
-                <a>
-                  <FaYoutube />
+                <a href="https://www.youtube.com/">
+                  <FaYoutube color="black"/>
                 </a>
               </li>
               <li>
-                <a>
-                  <FaLinkedin />
+                <a href="https://www.linkedin.com/feed/">
+                  <FaLinkedin color="black"/>
                 </a>
               </li>
             </ul>

@@ -1,6 +1,9 @@
 import React from "react";
 
 const banner = () => {
+
+  
+
   return (
     <div className="banner content white">
       <center>
@@ -11,6 +14,7 @@ const banner = () => {
           </div>
           <h1>2022</h1>
           <p>Discover yourself Discover Shimla, The White Heaven</p>
+          <a className="white booknow" href="#">Book Now</a>
         </div>
       </center>
     </div>

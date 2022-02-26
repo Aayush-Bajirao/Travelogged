@@ -26,7 +26,7 @@ const inclusions = () => {
 
             </div>
           </center>
-          <div className="title">
+          <div id="lone" className="title">
           <h2>Why Travelogged</h2>
         </div>
         <center>

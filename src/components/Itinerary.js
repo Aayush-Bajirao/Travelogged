@@ -176,7 +176,7 @@ const Itinerary = () => {
                 <div class="timeline-launch">
                   <div class="timeline-box">
                     <div class="timeline-text">
-                      <h3>Trip ended</h3>
+                      <h3>Trip Ended</h3>
                       <p>Trip ended But we got the timeless treasure of heart, The Memories.</p>
                     </div>
                   </div>
