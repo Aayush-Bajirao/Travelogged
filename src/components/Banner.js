@@ -1,13 +1,17 @@
 import React from "react";
 
-
 const banner = () => {
   return (
     <div className="content white">
       <center>
-        <h1>Travelogged Shimla</h1>
-        <h1>2022</h1>
-        <p>Discover yourself Discover Shimla, The White Heaven</p>        
+        <div className="aa">
+          <div className="dflex">
+            <div className="logo-b"></div>
+            <h1>Travelogged Shimla</h1>
+          </div>
+          <h1>2022</h1>
+          <p>Discover yourself Discover Shimla, The White Heaven</p>
+        </div>
       </center>
     </div>
   );
