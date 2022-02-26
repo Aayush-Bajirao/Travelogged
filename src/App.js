@@ -4,6 +4,8 @@ import Banner from "./components/Banner";
 import Itinerary from "./components/Itinerary";
 import Inclusions from "./components/Inclusions";
 import Reviews from "./components/Reviews";
+import AboutUs from "./components/AboutUs";
+import Footer from "./components/Footer";
 
 
 
@@ -33,12 +35,13 @@ function App() {
       </div>
       </div>
       
+      <div className="container">
+        <AboutUs />
+      </div>
 
-      <ul className="container">
-        <li>Coffee</li>
-        <li>Tea</li>
-        <li>Milk</li>
-      </ul>
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }

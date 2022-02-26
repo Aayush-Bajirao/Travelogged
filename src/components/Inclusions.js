@@ -1,4 +1,6 @@
 import React from "react";
+import Marquee from "react-fast-marquee";
+
 
 const inclusions = () => {
   return (
@@ -14,10 +16,14 @@ const inclusions = () => {
               Travelling
             </p>
             <div className="inc-img">
+           
+
               <div className="transportation"></div>
               <div className="meals"></div>
               <div className="stays"></div>
               <div className="guide"></div>
+              
+
             </div>
           </center>
           <div className="title">

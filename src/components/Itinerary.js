@@ -2,7 +2,7 @@ import React from "react";
 
 const Itinerary = () => {
   return (
-    <div className="iterary">
+    <div className="iterary" id="iterary">
 
       <div class="title">
         <h2>Shimla Itinerary</h2>

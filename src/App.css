@@ -442,3 +442,74 @@ margin-bottom: 0;
 .margind{
   margin: 10px 0;
 }
+.white1{
+  color: white;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: white;
+}
+html{
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+.social li{
+  list-style: none;
+}
+.link{
+  height: 20vh;
+  background-size: cover;
+  width: 20vh;
+  background-image: url('lunch.jpg');
+}
+
+/* social media about */
+
+.about{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.social_media{
+  display: flex;
+}
+.social_media li {
+  list-style: none;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+.footer{
+  background-color: #f6f6f6;
+  line-height: 2rem;
+  padding: 100px 135px;
+  margin-top: 80px;
+  list-style: none;
+  text-align: left;
+}
+.footer li{
+  list-style: none;
+}
+a{
+  cursor: pointer;
+}
+.footer ul{
+  padding: 0;
+}
+.logo2{
+  background-image: url('Grouplogo.jpg');
+}
+.black{
+  color: #3d3d3d;
+}
+.black:hover{
+  color: #3d3d3d;
+}

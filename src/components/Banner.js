@@ -2,7 +2,7 @@ import React from "react";
 
 const banner = () => {
   return (
-    <div className="content white">
+    <div className="banner content white">
       <center>
         <div className="aa">
           <div className="dflex">
