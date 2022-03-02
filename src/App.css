@@ -515,14 +515,18 @@ a{
   color: #3d3d3d;
 }
 .aa{
-  animation: fadeIn 3s;
+  animation: fadeIn 1s;
 }
 @keyframes fadeIn {
-  from{
-    opacity: 0;
+  0%{
+    opacity: 0 ;
   }
-  to {
-    opacity: 1;
+  50%{
+    opacity: 0 ;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1 ;
   }
 }
 .aa p{
@@ -538,5 +542,64 @@ a{
 .booknow:hover{  
   color: #4F84C4;
 }
-
+.aa{
+  animation: fadeInd 1s;
+}
+@keyframes fadeInd {
+  0%{
+    opacity: 0 ;
+  }
+  50%{
+    opacity: 0 ;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1 ;
+  }
+}
+.rr{
+  animation: fadeInr 1s;
+}
+@keyframes fadeInr {
+  0%{
+    opacity: 0 ;
+  }
+  50%{
+    opacity: 0 ;
+    transform: translateX(100px);
+  }
+  100% {
+    opacity: 1 ;
+  }
+}
+.ll{
+  animation: fadeInl 1s;
+}
+@keyframes fadeInl {
+  0%{
+    opacity: 0 ;
+  }
+  50%{
+    opacity: 0 ;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1 ;
+  }
+}
+.uu{
+  animation: fadeInu 1s;
+}
+@keyframes fadeInu {
+  0%{
+    opacity: 0 ;
+  }
+  50%{
+    opacity: 0 ;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1 ;
+  }
+}
 

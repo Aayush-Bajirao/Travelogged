@@ -5,7 +5,7 @@ const banner = () => {
   
 
   return (
-    <div className="banner content white">
+    <div className=" aa banner content white">
       <center>
         <div className="aa">
           <div className="dflex">
