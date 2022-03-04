@@ -543,13 +543,10 @@ a{
   color: #4F84C4;
 }
 .aa{
-  animation: fadeInd 1s;
+  animation: fadeInd .5s;
 }
 @keyframes fadeInd {
   0%{
-    opacity: 0 ;
-  }
-  50%{
     opacity: 0 ;
     transform: translateY(100px);
   }
