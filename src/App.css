@@ -520,9 +520,6 @@ a{
 @keyframes fadeIn {
   0%{
     opacity: 0 ;
-  }
-  50%{
-    opacity: 0 ;
     transform: translateY(100px);
   }
   100% {
